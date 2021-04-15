@@ -12,13 +12,13 @@
 - Use soft-tabs with a four space indent.
 - Never leave trailing whitespace.
 - End each file with a blank newline.
-- Use spaces around operators, after commas, and colons, after `{{` and before `}}`.
+- Use spaces around operators, after commas and colons, after `{{` and before `}}`.
   ```Blade
   {{ $exists ? 'Foo' : 'Bar' }}
   ```
 - No spaces after `(`, `[` or before `]`, `)`.
   ```Blade
-  {{ $foo->bar('baz') ?? $bar['baz] }}
+  {{ $foo->bar('baz') ?? $bar['baz'] }}
   ```
 - Never indent within loops and conditionals
   ```Blade
